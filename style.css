@@ -1,0 +1,53 @@
+:root {
+  color-scheme: light;
+  font: 100%/1.65 system-ui, sans-serif;
+  color: #1b2938;
+  background: #f5f8fc;
+}
+
+body {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: clamp(1rem, 5vw, 3rem);
+}
+
+main {
+  padding: clamp(1.25rem, 5vw, 3rem);
+  border: 1px solid #d5e0ee;
+  border-top: .35rem solid #1b56a3;
+  border-radius: 1rem;
+  background: white;
+}
+
+h1, h2 {
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 6vw, 3.25rem);
+}
+
+h2 {
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+}
+
+.intro {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #144b90;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.25rem;
+  padding-top: 1rem;
+}
+
+[aria-current="page"] {
+  font-weight: 700;
+}
